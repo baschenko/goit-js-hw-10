@@ -17,4 +17,29 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  border-radius: 10px;
+}
+
+.country-list {
+  padding: 0px;
+}
+
+.country-item {
+  list-style: none;
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+}
+.country-img {
+  width: 30px;
+  height: 20px;
+  margin-right: 10px;
+}
+.country-title {
+  margin: 0;
+  font-size: 14px;
+}
+
+.country-title__biggest {
+  font-size: 26px;
 }
